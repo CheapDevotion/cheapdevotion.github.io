@@ -1,0 +1,67 @@
+!!! 5
+html
+  head
+    meta(charset='utf-8')
+    meta(name='description', content='The personal website and blog of game, app, and mobile developer Jacob Williams.')
+    title= locals.name
+    // FONTS
+    link(href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Libre+Baskerville', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Coustard', rel='stylesheet', type='text/css')
+    //if lte IE 9
+      script(src='js/html5shiv.js')
+      script(src='js/selectivizr-min.js')
+    link(rel='stylesheet', type='text/css', media='print', href='css/print.css')
+    link(rel='stylesheet', type='text/css', href='/css/grid.css')
+    link(rel='stylesheet', type='text/css', href='/css/style.css')
+    link(rel='stylesheet', type='text/css', href='/css/normalize.css')
+    link(rel='stylesheet', type='text/css', href='/css/font-awesome.css')
+    link(rel='stylesheet', type='text/css', href='/js/google-code-prettify/prettify.css')
+    link(rel='stylesheet', type='text/css', href='/css/uniform.default.css')
+    link(rel='stylesheet', type='text/css', href='/css/main.css')
+    link(rel="stylesheet", type="text/css", href="http://yandex.st/highlightjs/7.3/styles/tomorrow.min.css")
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js')
+    script
+      window.jQuery || document.write('<script src="/js/jquery-1.8.3.min.js"><\\/script>')
+  body
+    #page.hfeed.site
+      header.site-header.wrapper(role='banner')
+        .row
+          hgroup
+            h1.site-title
+              a(href='index.html', title='Read', rel='home')
+                span= locals.name
+            h2.site-description= locals.description
+          nav#site-navigation.main-navigation(role='navigation')
+            ul
+              li.current-menu-item
+                a(href='/index.html') Home
+              //-li
+                a(href='/about.html') About
+              li
+                a(href='/projects.html') Projects
+              li
+                a(href='/contact.html') Contact
+              li
+                form#search-form(role='search', method='get', action='#')
+                  label.screen-reader-text(for='search') Search
+                  input#search(type='text', value='', name='s', title='Enter keyword')
+                  input#search-submit(type='submit', title='Search it', value='→')
+      section#main.middle.wrapper
+        .row.row-fluid
+          #primary.site-content
+            #content(role='main')
+              block content
+      
+
+      block footer
+        footer.site-footer.wrapper(role='contentinfo')
+          .row
+            .site-info another awesome web experience by Jacob Williams
+    
+    script(src='/js/detectmobilebrowser.js')
+    script(src='/js/modernizr.js')
+    script(src='/js/google-code-prettify/prettify.js')
+    script(src='/js/jquery.uniform.min.js')
+    script(src='/js/main.js')
+    script(src="http://yandex.st/highlightjs/7.3/highlight.min.js");

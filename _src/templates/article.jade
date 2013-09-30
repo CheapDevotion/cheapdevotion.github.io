@@ -1,0 +1,29 @@
+
+extends layout
+
+block prepend title
+  | #{ page.title + " - "}
+
+
+block content
+  .blog-single.readable-content
+    article.post.type-post.format-standard.hentry
+      header.entry-header
+        h1.entry-title= page.title
+      if (page.metadata.author)
+        .entry-meta
+          | posted on 
+          span= moment.utc(page.date).format('MMM DD, YYYY ') 
+          span.by-author by 
+            span.author.vcard
+              a.url.fn.n(href='#', title='View all posts by #{ page.metadata.author }', rel='author')= page.metadata.author
+          | .
+      .entry-content
+        p.lead!= typogr(page.html).typogrify()
+
+
+block prepend footer
+  div.footer-nav
+    a(href=contents.index.url) « Back
+
+

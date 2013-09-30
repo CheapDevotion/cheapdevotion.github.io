@@ -1,0 +1,29 @@
+{
+  "output": "../",
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "Inexpensive Commitment",
+    "owner": "Jacob Williams",
+    "description": "The idle thoughts and and crazy experiences of Jacob Williams"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee",
+    "./node_modules/wintersmith-coffee/",
+    "./node_modules/wintersmith-stylus/"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 3
+  }
+}
