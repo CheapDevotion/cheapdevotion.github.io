@@ -174,13 +174,15 @@
 		
 		//Custom Stuff
 		var skills = $('#skills_list span');
-		$("#skills").text(skills[Math.floor(Math.random()*skills.length)].innerText);
-		setInterval(function(){
-			$("#skills").fadeOut(500,function(){
-				$("#skills").text(skills[Math.floor(Math.random()*skills.length)].innerText);
-				$("#skills").fadeIn(500);
-			});
-		},10000);
+		if (skills.length > 0){
+			$("#skills").text(skills[Math.floor(Math.random()*skills.length)].innerText);
+			setInterval(function(){
+				$("#skills").fadeOut(500,function(){
+					$("#skills").text(skills[Math.floor(Math.random()*skills.length)].innerText);
+					$("#skills").fadeIn(500);
+				});
+			},3000);
+		}
 	});
 
 })(jQuery);	

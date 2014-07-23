@@ -80,3 +80,17 @@ a img.aligncenter {
     padding: .2em .4em;
 }
 .alignleft:first-child, .alignright:first-child { margin-top:1.2em; }
+
+ul.social {
+    display:inline;
+    list-style-type: none;
+}
+
+ul.social li {
+    text-align: center;
+    margin:auto;
+}
+
+.fb-like > span {
+    top:-7px;
+}

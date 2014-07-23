@@ -2,17 +2,30 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Inexpensive Commitment</title>
-    <atom:link href="http://cheapdevotion.github.io/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <link>http://cheapdevotion.github.io</link>
+    <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://localhost:8080</link>
     <description>The idle thoughts and and crazy experiences of Jacob Williams</description>
-    <pubDate>Mon, 29 Apr 2013 19:00:00 -0500</pubDate>
+    <pubDate>Sun, 29 Sep 2013 19:00:00 -0500</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
+      <title>Readme Driven Development</title>
+      <link>http://localhost:8080/articles/readme-driven-development/</link>
+      <pubDate>Sun, 29 Sep 2013 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/readme-driven-development/</guid>
+      <author></author>
+      <description>&lt;p&gt;When I worked for a consulting company, I found myself constantly thrown into a world of other people‘s opinions. This is especially true when discussing development practices. The problem with “best practices”, is that they are different for every company based upon specific needs, and don’t always apply everywhere. For these larger companies, test driven development seems to be a popular practice, but for my smaller personal projects, I have learned to adopt readme driven development.&lt;/p&gt;
+&lt;p&gt;RDD is the practice of writing your application&amp;#39;s readme first, and designing the application around that document. This allows you to focus on the functionality of your app first, and get a better understanding of what technical challenges will need to be overcome. This will have the time saving benefit of less code refactoring, and better overall design. In addition, this method of development will make feature creep less of an issue - as long as you lock your readme file before you start development. If a readme file is written well, you can even distribute it to friends or other developers, and they will be able to spot usability issues before production begins. &lt;/p&gt;
+&lt;p&gt;Programmers hate writing documentation - I get it, but without a clear direction, a programmer also wastes time. If you have to change or refactor code everytime you change your mind about a feature, you‘re software will be delayed or shelved. Also, if your anything like me, you are most excited about your project when you first start, and when you’re excited about something, writing a document is not so bad.&lt;/p&gt;
+&lt;p&gt;For large projects this method won‘t always work, but larger versions of this methodology are used everyday. A good example of this is Game Design Documents. This is done on quite a larger scale than a simple readme, but the principals are the same. A document is drafted with the intent of being revised until the ideas are solid, and the flow of the game makes sense. Once the game starts production, however, the document is locked and distributed to the entire team as a development reference. This can sometimes turn into a waterfall nightmare or an agile meeting extravaganza - that’s what you want to avoid. &lt;/p&gt;
+&lt;p&gt;So give it a shot. Write that Readme file first, and stick to it. Chances are, you will finish your project faster, stay excited about it longer, and when your done, you won&amp;#39;t have to go back and write that document you hate so much.&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>README</title>
-      <link>http://cheapdevotion.github.io/articles/hello-world/</link>
+      <link>http://localhost:8080/articles/hello-world/</link>
       <pubDate>Mon, 29 Apr 2013 19:00:00 -0500</pubDate>
-      <guid isPermaLink="true">http://cheapdevotion.github.io/articles/hello-world/</guid>
+      <guid isPermaLink="true">http://localhost:8080/articles/hello-world/</guid>
       <author></author>
       <description>&lt;p&gt;Welcome to your new blog! This is the default blog template with RSS, pagination and an archive. There are other templates available — run &lt;code&gt;wintersmith new --help&lt;/code&gt; to list them.&lt;/p&gt;
 &lt;h2&gt;&lt;em&gt;Repeat after me:&lt;/em&gt; This is my blog. There are many like it, but this one is mine. My blog is my best friend. It is my life. I must master it as I must master my life. My blog, without me, is useless. Without my blog, I am useless.&lt;/h2&gt;
