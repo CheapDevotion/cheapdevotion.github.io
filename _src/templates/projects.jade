@@ -1,0 +1,39 @@
+block title
+  title = page.title
+
+extends layout
+
+block content
+  .blog-single.readable-content
+    article.post.type-post.format-standard.hentry
+      header.entry-header
+        h1.entry-title= page.title
+            
+            
+  
+      .entry-content
+        p.lead!= typogr(page.html).typogrify()
+
+        h2 GitHub Repositories
+        p From time to time, I work on or contribute to quite a few open source projects. 
+          | Feel free to browse, fork or use any of these projects.
+        #github-projects
+
+      
+
+
+block prepend footer
+
+  div.footer-nav
+    a(href=contents.index.url) « Back
+
+  script(type='text/javascript')
+    $(function() {
+      $("#github-projects").loadRepositories("cheapdevotion");
+    });
+
+
+
+
+
+

@@ -58,17 +58,23 @@
                     <h1 class="entry-title">Projects</h1>
                   </header>
                   <div class="entry-content">
-                    <p class="lead"><p>Most of my projects for <a href="http://www.tecstarconsulting.com/">TecStar</a> are usually under <span class="caps">NDA</span>, but I maintain quite a few personal&nbsp;projects.  </p>
+                    <p class="lead"><p>Most of my contract or freelance projects are usually under <span class="caps">NDA</span>, but I maintain quite a few personal&nbsp;projects.  </p>
 <h2>Current&nbsp;Projects</h2>
-<p><strong>Pac Quest</strong> - A retro top-down multiplayer battle area game for consoles and desktop. A lot of my blog posts over the next few months will probably be about this&nbsp;project.  </p>
-<p><strong>AnimTools</strong> - A simple animation tool built with HaxeFlixel for artist <a href="http://empireeden.com/">Ryan DeGange</a> to test and tweak his spritesheet&nbsp;animations. </p>
+<p><strong>Oh Captain, My Captain</strong> - A fustratingly fun game of space command and exploration. You take the role of the ship&#39;s captain, and must control your crew by commands alone. One misstep, and the lives under your charge are lost. Watch the blog for development updates. Kickstarter Campaign coming&nbsp;soon. </p>
 <h2>Shelved (for now)&nbsp;Projects</h2>
 <p><strong>HitPoints App</strong> - a mobile pedometer app with an <span class="caps">API</span> designed specifically for games. Walking while this app is active will benefit you in the games that implement the&nbsp;API.</p>
 <p><strong>Gist Todo</strong> - a node.js based commandline application for managing your Todo.txt file as a Github&nbsp;Gist. </p>
 <h2>Past&nbsp;Projects</h2>
 <p><strong><a href="https://github.com/CheapDevotion/game-build">GameBuild</a></strong> - A preconfigured gruntfile for building <span class="caps">HTML5</span> games and webapps as desktop applications using&nbsp;node-webkit.  </p>
 <p><strong><a href="https://github.com/CheapDevotion/Steganography">Unity Steganography</a></strong> - A Unity class for store data inside the pixel data of an&nbsp;image.</p>
+<p><strong>AnimTools</strong> - A simple animation tool built with HaxeFlixel for artist <a href="http://empireeden.com/">Ryan DeGange</a> to test and tweak his spritesheet&nbsp;animations. </p>
 </p>
+                    <h2>GitHub Repositories</h2>
+                    <p>
+                      From time to time, I work on or contribute to quite a few open source projects. 
+                      Feel free to browse, fork or use any of these projects.
+                    </p>
+                    <div id="github-projects"></div>
                   </div>
                 </article>
               </div>
@@ -78,17 +84,10 @@
       </section>
       <div class="footer-nav"><a href="/">« Back</a></div>
       <script type="text/javascript">
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-        fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
+        $(function() {
+          $("#github-projects").loadRepositories("cheapdevotion");
+        });
         
-      </script>
-      <script type="text/javascript">
-        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
         
         
         
@@ -106,6 +105,7 @@
     <script src="/js/google-code-prettify/prettify.js"></script>
     <script src="/js/jquery.uniform.min.js"></script>
     <script src="/js/main.js"></script>
+    <script src="/js/git.js"></script>
     <script src="http://yandex.st/highlightjs/7.3/highlight.min.js">;</script>
   </body>
 </html>
