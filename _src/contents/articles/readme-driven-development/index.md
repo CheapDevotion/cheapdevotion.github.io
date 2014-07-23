@@ -1,7 +1,7 @@
 ---
 title: Readme Driven Development
 author: Jacob Williams
-date: 2013-09-30
+date: 2014-07-23
 template: article.jade
 comments: true
 published: true

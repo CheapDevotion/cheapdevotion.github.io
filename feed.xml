@@ -5,13 +5,13 @@
     <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://localhost:8080</link>
     <description>The idle thoughts and and crazy experiences of Jacob Williams</description>
-    <pubDate>Sun, 29 Sep 2013 19:00:00 -0500</pubDate>
+    <pubDate>Tue, 22 Jul 2014 19:00:00 -0500</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
       <title>Readme Driven Development</title>
       <link>http://localhost:8080/articles/readme-driven-development/</link>
-      <pubDate>Sun, 29 Sep 2013 19:00:00 -0500</pubDate>
+      <pubDate>Tue, 22 Jul 2014 19:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://localhost:8080/articles/readme-driven-development/</guid>
       <author></author>
       <description>&lt;p&gt;When I worked for a consulting company, I found myself constantly thrown into a world of other people‘s opinions. This is especially true when discussing development practices. The problem with “best practices”, is that they are different for every company based upon specific needs, and don’t always apply everywhere. For these larger companies, test driven development seems to be a popular practice, but for my smaller personal projects, I have learned to adopt readme driven development.&lt;/p&gt;
