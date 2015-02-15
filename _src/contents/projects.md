@@ -5,7 +5,7 @@ template: projects.jade
 
 Most of my contract or freelance projects are usually under NDA, but I maintain quite a few personal projects.  
 ##Current Projects
-**Oh Captain, My Captain** - A fustratingly fun game of space command and exploration. You take the role of the ship's captain, and must control your crew by commands alone. One misstep, and the lives under your charge are lost. Watch the blog for development updates. Kickstarter Campaign coming soon. 
+**Eden's Hope** - Our first project as CheapDevotion games. More information will be provided in the near future.
 
 
 ##Shelved (for now) Projects
