@@ -5,7 +5,7 @@ template: projects.jade
 
 Most of my contract or freelance projects are usually under NDA, but I maintain quite a few personal projects.  
 ##Current Projects
-**Eden's Hope** - Our first project as CheapDevotion games. More information will be provided in the near future.
+**Eden's Hope** - Our first project as CheapDevotion Games. More information will be provided in the near future.
 
 
 ##Shelved (for now) Projects
