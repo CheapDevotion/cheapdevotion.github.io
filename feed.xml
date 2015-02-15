@@ -5,9 +5,24 @@
     <atom:link href="http://www.cheapdevotion.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://www.cheapdevotion.com</link>
     <description>The idle thoughts and and crazy experiences of Jacob Williams</description>
-    <pubDate>Tue, 22 Jul 2014 19:00:00 -0500</pubDate>
+    <pubDate>Sat, 14 Feb 2015 00:00:00 -0600</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>CheapDevotion Games</title>
+      <link>http://www.cheapdevotion.com/articles/cheapdevotion-games/</link>
+      <pubDate>Sat, 14 Feb 2015 00:00:00 -0600</pubDate>
+      <guid isPermaLink="true">http://www.cheapdevotion.com/articles/cheapdevotion-games/</guid>
+      <author></author>
+      <description>&lt;h2&gt;The Start of Something Special&lt;/h2&gt;
+&lt;p&gt;For a while now, I have been a hobbyist game developer in addition to my freelance development work. This has been fun, but the time has come for me to be a little more “official”. To that effect, I have acquired the special talents of three other developers to start work on our first project as CheapDevotion Games. It‘s too early to talk specifics, but we really do think this will be the start of something special, and I can’t wait to tell you more about it, and the people that are helping to make this happen.&lt;/p&gt;
+&lt;h2&gt;The Tools of the Trade&lt;/h2&gt;
+&lt;p&gt;While &lt;a href=&quot;http://www.unity3d.com/&quot;&gt;Unity&lt;/a&gt; has traditionally been my engine of choice, I have recently been looking at the improvements made to the &lt;a href=&quot;http://www.unrealengine.com/&quot;&gt;UE4&lt;/a&gt; engine, and I think it‘s going to be a good fit for this project. I intend on writing up a blog post on why I made this choice, but I do believe it’s the right direction.&lt;/p&gt;
+&lt;p&gt;In addition to our engine choice, I have recently signed up for the &lt;a href=&quot;https://www.microsoft.com/bizspark&quot;&gt;Microsoft BizSpark&lt;/a&gt; program. This will allow out team to use industry standard development tools, and provide us for a cloud server for source control and automated builds. Again, I will talk more about this later, and why you should be doing the same thing for your startup. &lt;/p&gt;
+&lt;h2&gt;The Road Ahead&lt;/h2&gt;
+&lt;p&gt;I intend to update this blog more frequently about what we are working on, but things will be moving pretty quickly over the next couple of weeks. I am a big believer in open development and plan to share about our successes as well as our failures. In addition, I plan to provide write-ups on how I accomplish helpful things. So stay tuned, this is going to be a interesting trip.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Readme Driven Development</title>
       <link>http://www.cheapdevotion.com/articles/readme-driven-development/</link>

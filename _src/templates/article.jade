@@ -20,7 +20,7 @@ block content
             
   
       .entry-content
-        p.lead!= typogr(page.html).typogrify()
+        p!= page.html
 
       if (page.metadata.social)
         .addthis_sharing_toolbox
