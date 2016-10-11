@@ -6,7 +6,7 @@ console.log(getURLParameter('code'));
 window.unityAsync({
 	className:"window.unityScriptObject", 
 	funcName:"SendResponse", 
-	funcArgs:[getURLParameter('token')],
+	funcArgs:[getURLParameter('#token')],
 	onSuccess:function(a){
 		console.log(a);
 	}
