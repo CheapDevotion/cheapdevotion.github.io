@@ -12,7 +12,53 @@
 	<meta property="og:image"              content="https://www.cattco.org/sites/default/files/term-images/3D_medical_animation_coronavirus_structure.jpg" />
 
 	<style>
+    
+    * {
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    html {
+      color: #888;
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    body {
+      left: 50%;
+      margin: -43px 0 0 -200px;
+      position: absolute;
+      top: 50%;
+      width: 400px;
+    }
+
+    h1 {
+      color: #555;
+      font-size: 2em;
+      font-weight: 400;
+    }
+
+    p {
+      line-height: 1.2;
+    }
+
+    @media only screen and (max-width: 270px) {
+
+      body {
+        margin: 10px auto;
+        position: static;
+        width: 95%;
+      }
+
+      h1 {
+        font-size: 1.5em;
+      }
+
+    }
+
+
 	.typewriter h1 {
+      font-family: 'Lato', sans-serif;
 	  overflow: hidden; /* Ensures the content is not revealed until the animation */
 	  border-right: .15em solid orange; /* The typwriter cursor */
 	  white-space: nowrap; /* Keeps the content on a single line */
@@ -35,14 +81,14 @@
 	  50% { border-color: black; }
 	}
 	</style>
-
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <div style="width:400px;text-align: center; margin:auto">
-  <div class="typewriter">
-  <h1>Stay at home, dummy.</h1>
-</div>
+<body>	
+<div class="container">
+	<div class="typewriter">
+  		<h1>Stay at home, dummy.</h1>
+	</div>
 </div>
 
 </body>
